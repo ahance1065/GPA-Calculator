@@ -1,7 +1,7 @@
 # 💯 GPA Calculator 🔠
 
 ## Overview
-This C++ program calculates a student's GPA based on their course grades and credit hours. It follows the GPA calculation method outlined by the University of North Texas (UNT) Student Success Advising (This is on a 4.0 scale).
+This C++ program calculates students' GPA based on their course grades and credit hours. It follows the GPA calculation method outlined by the University of North Texas (UNT) Student Success Advising (This is on a 4.0 scale).
 
 ## How It Works
 The GPA is calculated using the following steps:
