@@ -1,10 +1,14 @@
+```cpp
 #include <iostream>
 using namespace std;
+
 int main() {
     int numCourses;
     double totalGradePoints = 0, totalCreditHours = 0;
+    
     cout << "Enter the number of courses: ";
     cin >> numCourses;
+    
     if (numCourses <= 0) {
         cout << "Error: Invalid number of courses.\n";
         return 1;
@@ -26,7 +30,7 @@ int main() {
             continue;
         }
 
-        switch (toupper(grade)) { // uppercase it all cuz why not
+        switch (toupper(grade)) {
             case 'A': gradeValue = 4.0; break;
             case 'B': gradeValue = 3.0; break;
             case 'C': gradeValue = 2.0; break;
