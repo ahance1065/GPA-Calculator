@@ -20,3 +20,5 @@ The GPA is calculated using the following steps:
 - **Grade Points**: The product of the grade value and the credit hours for a course.
 - **Attempted Hours**: Credit hours for which a grade is earned (excluding I's, P/NP, or W's).
 - **Earned Hours**: Credit hours passed with a grade of D or higher.
+
+## Getting Started
