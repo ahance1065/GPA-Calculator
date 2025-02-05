@@ -31,3 +31,5 @@ The GPA is calculated using the following steps:
    g++ gpa_calculator.cpp -o gpa_calculator
 3. Follow the on-screen prompts to input your grades and credit hours.
 4. The program will output your calculated GPA.
+## Contributors
+This is just a fun independent coding project created by **Austin Hance** (ahance1065). Feel free to reach out to me for anything. 😤😤
