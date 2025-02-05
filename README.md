@@ -22,3 +22,5 @@ The GPA is calculated using the following steps:
 - **Earned Hours**: Credit hours passed with a grade of D or higher.
 
 ## Getting Started
+1. Compile the program using a C++ compiler (you can find some online to speed the process):
+   g++ gpa_calculator.cpp -o gpa_calculator
