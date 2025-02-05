@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int numCourses;
+    double totalGradePoints = 0, totalCreditHours = 0;
+    cout << "Enter the number of courses: ";
+    cin >> numCourses;
+    if (numCourses <= 0) {
+        cout << "Error: Invalid number of courses.\n";
+        return 1;
+    }
+
+    for (int i = 0; i < numCourses; i++) {
+        char grade;
+        int creditHours;
+        double gradeValue = 0;
+
+        cout << "Enter letter grade for course " << (i + 1) << " (A, B, C, D, F): ";
+        cin >> grade;
+        cout << "Enter credit hours for course " << (i + 1) << ": ";
+        cin >> creditHours;
+
+        if (creditHours <= 0) {
+            cout << "Error: Invalid credit hours.\n";
+            i--;
+            continue;
+        }
+
+        switch (toupper(grade)) { // uppercase it all cuz why not
+            case 'A': gradeValue = 4.0; break;
+            case 'B': gradeValue = 3.0; break;
+            case 'C': gradeValue = 2.0; break;
+            case 'D': gradeValue = 1.0; break;
+            case 'F': gradeValue = 0.0; break;
+            default:
+                cout << "Error: Invalid grade.\n";
+                i--;
+                continue;
+        }
+        totalGradePoints += gradeValue * creditHours;
+        totalCreditHours += creditHours;
+    }
+
+    if (totalCreditHours == 0) {
+        cout << "Error: No valid credit hours entered.\n";
+    } else {
+        double gpa = totalGradePoints / totalCreditHours;
+        cout << "Your current GPA is: " << gpa << endl;
+    }
+
+    return 0;
+}
