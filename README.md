@@ -23,7 +23,8 @@ The GPA is calculated using the following steps:
 
 ## Getting Started
 ### Running the program
-1. Compile the program using a C++ compiler (you can find some online to speed the process):
+**I added the text file to the repository, you can download that to have the code.**
+1. Compile the program using a C++ compiler (you can find some online to speed up the process):
    ```sh
    g++ gpa_calculator.cpp -o gpa_calculator
 2. Run the executable:
