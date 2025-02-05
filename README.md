@@ -1,14 +1,22 @@
 # GPA Calculator
 
-This C++ proram calculates GPA based on the follow steps (by UNT Student Succses Advising):
+## Overview
+This C++ program calculates a student's GPA based on their course grades and credit hours. It follows the GPA calculation method outlined by the University of North Texas (UNT) Student Success Advising.
 
-1. Multiply the grade value of the course by the semester hours for that course.
-2. The product of this multiplication will be the grade points.
-3. Divide the cumulative grade points by the cumulative attempted hours.
+## How It Works
+The GPA is calculated using the following steps:
+1. Multiply the grade value of each course by its corresponding credit hours.
+2. Sum the total grade points.
+3. Divide the cumulative grade points by the total attempted credit hours.
 
-Before calulating it is important to know this informatino about your courses (by UNT Student Succses Advising):
-1.Credit Hours: Hours assigned to a course -  usually 1 to 5 hours.
-2. Grade Value: Numerical value of a grade; A=4 points, B=3 points, C=2 points, D=1 point, and F=0 points.
-3. Grade Points: Number of credit hours for a course times the grade value.
-4. Attempted Hours: Credit hours for which you earn a grade. (excluding I's , P/NP, or W's)
-5. Earned Hours: Credit hours you passed (with a grade of D or higher).
+## Key Terms (Source: The University of North Texas)
+- **Credit Hours**: The number of hours assigned to a course, typically ranging from 1 to 5 hours.
+- **Grade Value**: The numerical equivalent of a letter grade:
+  - A = 4.0
+  - B = 3.0
+  - C = 2.0
+  - D = 1.0
+  - F = 0.0
+- **Grade Points**: The product of the grade value and the credit hours for a course.
+- **Attempted Hours**: Credit hours for which a grade is earned (excluding I's, P/NP, or W's).
+- **Earned Hours**: Credit hours passed with a grade of D or higher.
