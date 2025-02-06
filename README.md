@@ -33,4 +33,4 @@ The GPA is calculated using the following steps:
 3. Follow the on-screen prompts to input your grades and credit hours.
 4. The program will output your calculated GPA.
 ## Contributors
-This is just a fun independent coding project created by **Austin Hance** (ahance1065). Feel free to reach out to me for anything. 😤😤
+This is just a fun independent coding project created by **Austin Hance** (ahance1065). I used a combination of generative AI and human confirmation. Feel free to reach out to me for anything. 😤😤
